@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$db = 'perpustakaan_db';
-$user = 'root';
-$pass = '';
+$host = 'bvqlqneqaisdv0ra6bww-mysql.services.clever-cloud.com';
+$db = 'bvqlqneqaisdv0ra6bww';
+$user = 'uduak0nhvnjxwhoc';
+$pass = 'HAWZQRVGGDOrgsDCNdnf';
 $port = 3306;
 $mysqli = new mysqli($host, $user, $pass, $db, $port);
 if ($mysqli->connect_error) {
