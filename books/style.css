@@ -1,0 +1,152 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #343a40;
+  padding: 15px 20px;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #007bff;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Buttons */
+.addButton {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #1565c0;
+}
+
+.backButton {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #1565c0;
+}
+
+button, .btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+button:hover, .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Form */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  max-width: 600px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Alerts */
+.alert {
+  padding: 10px;
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+  margin-bottom: 15px;
+}
+
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #4CAF50;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #888;
+}
